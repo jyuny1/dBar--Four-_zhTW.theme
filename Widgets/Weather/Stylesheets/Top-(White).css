@@ -1,0 +1,48 @@
+#WeatherContainer{
+    background-color: rgba(0,0,0,0);
+}
+
+#TextContainer{								/* Other */
+	font-size:55px;
+	font-family: Helvetica;
+	font-weight: bold;
+	color:#000000;
+}
+
+#city{									/* Weather City Position */
+	float: left;
+	position: absolute; top: 430px; right: 0px; down: 0px; left: 250px; width: 320px; height: 461px;
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 10px;
+	font-weight: bold;
+	color: transparent;
+}
+
+#temp{										/* Weather Temperature Position */
+	position: absolute; top: 405px; right: 0px; down: 0px; left: 271px; width: 320px; height: 481px;
+	margin-top:0px;
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 17px;
+	color: #C7C7C7;
+}
+
+#desc{										/* Weather info Position */
+	position: absolute; top: 430px; right: 0px; down: 0px; left: 250px; width: 320px; height: 461px;
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 10px;
+	color: transparent;
+}
+
+#TextContainer p{
+	margin:0;
+}
+
+#weatherIcon{									/* Weather Icon sition */
+	margin-top: 0px;	
+	position: absolute; top: 425px; right: 0px; down: 0px; left: 259px; width: 300px; height: 461px;
+	height:47;
+	width:47;
+}

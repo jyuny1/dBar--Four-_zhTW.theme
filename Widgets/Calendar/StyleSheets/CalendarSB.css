@@ -1,0 +1,69 @@
+
+    td#CalendarWidget                         /* Calendar Position */
+{
+	text-align:left;margin-left:0px;margin-top:0px;
+	position: absolute; top: 392px; right: 0px; down: 0px; left: 71px;
+	padding-right:25px;
+}
+	td#CalendarWidget                         /* Calendar Position */
+{
+	background: url(../Backgrounds/DefaultSB.png) no-repeat;
+}
+	.main {                                   /* Width, Height & Background Colour */
+		width:172px;
+		height:1px;
+}
+
+	.month {                                   /* Month label */
+		color: #9ACD32;
+		font-size: 9px;
+		font-weight: bold;
+		font-family:Helvetica;
+		padding: 5px 0px 1px 0px;
+}
+
+	.daysofweek {                              /* Days Of the Week label */
+		color: #808080;
+		font-size: 8px;
+		font-weight: bold;
+		font-family:Helvetica;
+		padding: 0px 0px 0px 0px;
+}
+
+	.days {                                    /* Days labels */
+		color: #C7C7C7;
+		font-size: 8px;
+		font-weight: bold;
+		font-family:Helvetica;
+		padding: 0px 0px 0px 0px;
+
+
+}
+
+	.days #today{                              /* Current Date label */
+		color: #9ACD32;
+		font-size: 10px;
+		font-weight: bold;
+		font-family:Helvetica;
+		padding: 0px 0px 0px 0px;;
+}
+
+    #btnPrec                         /* Calendar Previous Month  Button Image */
+{
+            background: url(../Backgrounds/btnPrev.png) no-repeat;
+            border: 0;
+}
+    #btnSuiv                         /* Calendar Next Month Button Image */
+{
+            background: url(../Backgrounds/btnSuiv.png) no-repeat;
+            border: 0;
+}
+    #Open                         /* Calendar Open Button Image */
+{
+            position: absolute; top: 115px; right: 0px; down: 0px; left: 0px; width: 160px; height: 40px;
+            background: url(../Backgrounds/Open.png) no-repeat;
+}
+    #Close                         /* Calendar Close Button Image */
+{
+            position: absolute; top: -55px; right: 0px; down: 0px; left: 100px; width: 160px; height: 40px;
+            background: url(../Backgrounds/Close.png) no-repeat;

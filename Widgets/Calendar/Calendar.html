@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<html><head>
+
+
+	<link rel="stylesheet" href="StyleSheets/CalendarSB.css">
+
+<base href="../"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<script type="text/javascript" src="Calendar/CalendarSB.js"/>
+<script type="text/javascript" src="Configs/Calendar-Config.js"/>
+<body>
+
+<!-- Code to refresh the Calendar in seconds Refreshes Hourly-->
+<meta http-equiv="refresh" Content="3600">
+
+<!-- Calendar Code -->
+
+<table><tr><td id="CalendarWidget">
+<script type="text/javascript"> var todaydate=new Date(); var curmonth=todaydate.getMonth()+1; var curyear=todaydate.getFullYear();
+
+if (EnableSpringBoardCalendar == true){
+document.write(buildCal(curmonth ,curyear, "main", "month", "daysofweek", "days", 1));
+}
+
+</script>
+</body></html>

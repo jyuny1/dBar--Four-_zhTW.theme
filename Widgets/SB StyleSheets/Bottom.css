@@ -1,0 +1,40 @@
+body {
+            background-color: none;
+            margin: 0;
+            height: 481px;
+            width: 320px;
+}
+    td#Backgrounds     			/* Clock Background Position */
+{
+margin-top:-1px;        
+position: absolute; top: 0px; right: 0px; down: 0px; left: -1px;
+}
+    td#Faces   				/* Clock Faces Position */
+{
+        position: absolute; top: 295px; right: 0px; down: 0px; left: 118px;
+}
+    canvas					/* Clock Hands Positions */
+{
+        position: absolute; top: 285px; right: 0px; down: 0px; left: 110px;
+}
+
+    object					/* Dont touch */
+{
+        position: absolute; top: 0px; right: 0px; down: 0px; left: 0px;
+}
+    td#Greeting     				/* Greetings Position */
+{
+	 text-align: center;
+        position: absolute; top: 295px; right: 0px; down: 0px; left: 34px; width: 250; height: 77px;
+        font-family: Helvetica; 
+        color: whitesmoke;
+        font-size: 13px;
+        font-weight: bold;
+        text-shadow: DimGray 0px 1px 1px;
+}
+    td#Greeting Not used     				/* Greetings Position */
+{
+        background-color: rgba(0,0,0,0.8);
+        -webkit-border-radius:10px;
+        opacity:1;
+}
